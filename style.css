@@ -114,7 +114,54 @@ main{
     
 }
 
+/* some fact start here */
+.some-title{
+    font-size: 45px;   
+    font-weight: 700;
+}
+.fact-des{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    width: 542px;
+}
+.fact-icon{
+display: flex;
+justify-content: space-evenly;
+}
 
+.fact-item{
+border: 2px solid green;
+justify-content: space-evenly;
+padding: 10px;
+margin-top: 40px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+/* sponspors section start here */
+
+.spon-item{
+text-align: center;
+margin-top: 40px;
+}
+.spon-title{
+    font-size: 45px; 
+    font-weight: 700; 
+}
+.spon-des{
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 26px; 
+    width: 542px;
+    margin: auto;
+}
+.spon-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -159,8 +206,50 @@ main{
     .banner-btn{
         width: 60%;
         margin: auto;
-        padding-top: 30px;    }
-}
+        padding-top: 30px;   
+     }
+
 .featur-description{
     margin-top: 40px;
 }
+
+/* some fact start here */
+
+.some-heading{
+    
+    text-align: center;
+}
+.fact-des{
+    width: 100%;
+}
+.fact-icon{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+   margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* sponpors section start here */
+
+.spon-img{
+   flex-direction: column;
+   
+}
+.spon-des{
+    width: 100%;
+}
+
+.img{
+   height: 20%;
+   width: 40%;
+   margin-bottom: 70px;
+   margin: auto;
+   padding-top: 40px;
+}
+
+}
+
+
+
