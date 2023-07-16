@@ -163,6 +163,51 @@ margin-top: 40px;
     margin-bottom: 20px;
 }
 
+/* feature section start here */
+
+.feature-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 700; 
+    width: 464px;
+}
+.feature-des{
+    width: 586px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card{
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.img-button{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E ;
+    color: #FFF;
+    font-size: 65px;
+font-weight: 500;
+line-height: 40px;
+margin-top: -350px;
+margin-left: 10px;
+}
+
+span{
+    font-size: 25px;
+}
 
 
 
@@ -247,6 +292,13 @@ margin-top: 40px;
    margin-bottom: 70px;
    margin: auto;
    padding-top: 40px;
+}
+.feature-section{
+    flex-direction: column;
+    justify-content: center;
+}
+.feature-img img{
+  width: 100%;
 }
 
 }
